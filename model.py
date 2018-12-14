@@ -1,7 +1,7 @@
 
 """
-    Written by Yanyan Zhao.
     Define the neural network.
+    Written by Yanyan Zhao.
 """
 
 from model_block import *
