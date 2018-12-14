@@ -1,7 +1,7 @@
 """
-Written by Yanyan Zhao.
 Image folder contains all the images while label folder contains all the masks.
 Image and its mask are with same name.
+Written by Yanyan Zhao.
 """
 
 
