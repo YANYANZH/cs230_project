@@ -1,6 +1,6 @@
 """
-Written by Yanyan Zhao.
 The program first builds dataset from Image folder and label folder, then shuffles and loads data for training and testing. File train.log tracks loss and F1 score during training.
+Written by Yanyan Zhao.
 """
 import os
 import utils
