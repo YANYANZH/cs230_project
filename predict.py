@@ -1,3 +1,9 @@
+"""
+Using trained model to predict features in 512 by 512 tomogram image. 
+python3 predict.py Image/image.tiff label/label.tiff
+Wirtten by Yanyan Zhao
+"""
+
 import torch
 import torch.nn as nn
 import model
