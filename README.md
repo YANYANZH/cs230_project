@@ -1,4 +1,4 @@
-# Faster Automated annotation of cellular cryo-electron tomograms using convolutional neural network
+# Automated annotation of cellular cryo-electron tomograms using convolutional neural network
 
 The neural network architecture was inspired by [U-Net: Convolutional Networks for Biomedical Image Segmentation](http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/) and based on the previous work [Convolutional neural networks for automated annotation of cellular cryo-electron tomograms](https://www.nature.com/articles/nmeth.4405)
 
@@ -27,11 +27,9 @@ Loss function for the training is cross-entropy.
 
 ## How to use
 
-The full U-Net will be implemented in the extensive cryo-EM software package [EMAN2](https://blake.bcm.edu/emanwiki/EMAN2), as one of the mode. And you can have an idea of how the previous 4-layer CNN works [here](https://blake.bcm.edu/emanwiki/EMAN2/Programs/tomoseg).
+
 
 ### Dependencies
 
- - EMAN2
- - keras >= 1.0
+- Pytorch
  
-Also, this code should be compatible with Python version 2.7.14.
