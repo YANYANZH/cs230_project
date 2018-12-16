@@ -11,7 +11,7 @@ The	 raw	 data	 comes	 from	 three	 sources.	 The	 first	 source	 is	 a PC-12	 c
 
 ### Model
 
-![img/u-net-architecture.png](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/u-net-architecture.png)
+![model.jpg](model.jpg)
 
 Loss function:
 
