@@ -15,11 +15,17 @@ The	 raw	 data	 comes	 from	 three	 sources.	 The	 first	 source	 is	 a PC-12	 c
 
 Loss function:
 
+![loss.jpg](loss.JPG)
 
 ### Training
 The input are annotated tomograms, they are annotated by experienced researchers in the field with the help of either previous 4-layer shallow CNN or manually. Different features have corresponding labels.
+
+Learning rate is 0.001, batch size is 4, epoch number is 50, Adam optimizer.
+
+Evaluation metric: F1 score
+
 The outputs will be 2D slices with each pixel annotated with one of the features. Merging can be done sequentially to get a 3D annotated tomogram or each feature can be stored in an individual togogram for further analysis.
-Loss function for the training is cross-entropy.
+
 
 
 ---
