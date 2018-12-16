@@ -31,10 +31,12 @@ The outputs will be 2D slices with each pixel annotated with one of the features
 ---
 
 ## How to use
-
-
+1. Prepare pre-processed data and label as described.
+2. Use main.py for trainning and testing.
+3. Use predict.py on new dataset.
 
 ### Dependencies
 
-- Pytorch
+- [Pytorch](https://pytorch.org/)
+- [EMAN2](https://blake.bcm.edu/emanwiki/EMAN2/Install)
  
